@@ -84,20 +84,3 @@ def win_check(board):
     if count==240:
         return True
     return False
-
-
-# print_board(board)
-# populate_board(board, 30)
-# print_board(board)
-# calculate_numbers(board)
-# print_board(board)
-
-# print_board(board_visible)
-# move = 1
-# while lost == False:
-#     print("move "+ str(move) + ":")
-#     x = int(input("x?"))
-#     y = int(input("y?"))
-#     reveal(x,y)
-#     print_board(board_visible)
-#     move+=1
